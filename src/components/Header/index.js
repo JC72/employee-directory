@@ -1,7 +1,6 @@
 import React from 'react';
 
-export default class PageHeader extends React.Component {
-    render() {
+function Header() {
         return (
             <div>
                 <div className="jumbotron jumbotron-fluid">
@@ -13,4 +12,4 @@ export default class PageHeader extends React.Component {
             </div>
         )
     }
-}
+export default Header;
