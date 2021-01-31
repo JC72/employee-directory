@@ -1,8 +1,18 @@
-import React from "react";
-import MainArea from "./components/MainArea";
+import React from 'react';
+import Main from './components/MainArea';
+import Wrapper from './components/Wrapper';
+import Header from './components/Header';
+import "./App.css";
 
 function App() {
-  return <MainArea />;
+  return (
+    <div className="App">
+   <Wrapper>
+     <Header />
+     <Main />
+   </Wrapper>
+    </div>
+  );
 }
 
 export default App;
