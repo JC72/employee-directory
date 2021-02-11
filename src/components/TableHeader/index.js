@@ -1,6 +1,4 @@
 import React from "react";
-import Moment from "react-moment";
-
 
 //researched this section from React Site @ "https://react-bootstrap.github.io/components/table/"
 //<thead> creates a entiretable header
