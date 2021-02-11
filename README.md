@@ -28,7 +28,7 @@ To get this project up and running, you can follow the deployment link that I ha
 
 ## Demo:
 
-![](https://github.com/JC72/JeffClegg_18_Online-Offline-Budget-Trackers/blob/main/public/assets/video/demovideo.gif)
+![](https://github.com/JC72/employee-directory/blob/master/assets/video/demovideo.gif)
 
 ## Assignment
 ### This assignment contains the following features:
@@ -44,13 +44,7 @@ To get this project up and running, you can follow the deployment link that I ha
 
     * A Table data section containing all the information from randomuser.me API.
 
-    ![Home Page](https://github.com/JC72/JeffClegg_18_Online-Offline-Budget-Trackers/blob/main/public/assets/screenshots/homepage.png)
-
-    ![Home Page](https://github.com/JC72/JeffClegg_18_Online-Offline-Budget-Trackers/blob/main/public/assets/screenshots/apponline.png)
-
-    ![Home Page](https://github.com/JC72/JeffClegg_18_Online-Offline-Budget-Trackers/blob/main/public/assets/screenshots/appoffline.png)
-
-
+    ![Home Page](https://github.com/JC72/employee-directory/blob/master/assets/screenshots/MainPage.png)
 
 ## File Structure <a name="filestructure"></a>
 
