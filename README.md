@@ -101,23 +101,23 @@ The following folders and what they contain are listed below:
 
 ## Future Development <a name="futureDevelopment"></a>
 
-    * Add search button instead of just a input field
-    * Create a note to notify the user that there is no employee with that name in the directory when searching for a name that is not there.
-    * Add a hover funtion to the table categories to know that they are clickable.
+* Add search button instead of just a input field
+* Create a note to notify the user that there is no employee with that name in the directory when searching for a name that is not there.
+* Add a hover funtion to the table categories to know that they are clickable.
 
 ## Scripts
 
-    * npm start
-        * Runs the app in development mode
+* npm start
+    * Runs the app in development mode
 
-    * npm test
-        * Launches the test runnre in the interactive watch mode
+* npm test
+    * Launches the test runnre in the interactive watch mode
 
-    * npm run build
-        * builds the app for production to the build folder
+* npm run build
+    * builds the app for production to the build folder
 
-    * npm run deploy
-        * deploys the app to the github repository for deployment.
+* npm run deploy
+    * deploys the app to the github repository for deployment.
 
 ## License
 
