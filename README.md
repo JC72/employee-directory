@@ -1,70 +1,156 @@
-# Getting Started with Create React App
+# JeffClegg_18_Online-Offline-Budget-Trackers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was designed as a homework assignment for MSU's coding bootcamp. 
 
-## Available Scripts
+This project has been loaded to my Personal GitHub Page and deployed via a script "deploy": "gh-pages -d build". 
+To get this project up and running, you can follow the deployment link that I have included in the Link Section below.
 
-In the project directory, you can run:
+# Table of Contents
+1. [Links](#Links)
+2. [Project Overview](#projectoverview)
+3. [Demo](#demo)
+4. [Assignment](#assignment)
+5. [File Structure](#filestructure)
+6. [Future Development](futureDevelopment)
+7. [Scripts](#Scripts)
+8. [License](#license)
+9. [Execution](Execution)
+10. [Credit](#credit)
+11. [Creators](#creators)
 
-### `npm start`
+## Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [GitHub Repository](https://github.com/JC72/employee-directory)
+* [Active Site](https://jc72.github.io/employee-directory/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Overview <a name="projectoverview"></a>
+* Uses React to create a searchable & sortable embployee directory.  This was done by using the create-react-app {name of app} command in the terminal.
 
-### `npm test`
+## Demo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](https://github.com/JC72/JeffClegg_18_Online-Offline-Budget-Trackers/blob/main/public/assets/video/demovideo.gif)
 
-### `npm run build`
+## Assignment
+### This assignment contains the following features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Main Page
+    * Contains a header for the title of the app.
+    
+    * One input field that allows user to enter the name of an employee on the list either by first or last name.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    * A Table Header containing the categories (photo, name, phone number, email & date of birth).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    * The Category Names are functional and when clicked on will sort the category ascending and/or descending order.
 
-### `npm run eject`
+    * A Table data section containing all the information from randomuser.me API.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ![Home Page](https://github.com/JC72/JeffClegg_18_Online-Offline-Budget-Trackers/blob/main/public/assets/screenshots/homepage.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ![Home Page](https://github.com/JC72/JeffClegg_18_Online-Offline-Budget-Trackers/blob/main/public/assets/screenshots/apponline.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ![Home Page](https://github.com/JC72/JeffClegg_18_Online-Offline-Budget-Trackers/blob/main/public/assets/screenshots/appoffline.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## File Structure <a name="filestructure"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The following folders and what they contain are listed below:
 
-### Code Splitting
+```bash
+  |-- EMPLOYEE-DIRECTORY
+    |-- build (all these files were not push to masterdirectory but to a gh-pages branch)
+        |-- static
+            |-- asset-mainfest.json
+            |-- favicon.ico
+            |-- index.html
+            |-- logo192.png
+            |-- logo512.png
+            |-- mainfest.json
+            |-- robots.txt
+    |-- node_modules (not push to repo)
+    |-- public
+    |   |-- asset-mainfest.json
+            |-- favicon.ico
+            |-- index.html
+            |-- logo192.png
+            |-- logo512.png
+            |-- mainfest.json
+            |-- robots.txt
+    |-- src
+    |   |-- compontents
+            |-- EmployeeData
+                |-- index.js (This file was not used due to functionality issues)
+            |-- MainHeader
+                |-- index.js
+            |-- SearchBar
+                |-- index.js
+            |-- TableHeader
+                |-- index.js
+        |-- pages
+            |--MainPage.js
+        |-- util
+            |-- API.js
+        |-- App.css
+        |-- App.js
+        |-- App.test.js
+        |-- index.css
+        |-- index.js
+        |-- logo.svg
+        |-- reportWebVitals.js
+        |-- setupTests.js
+    |-- .eslintcache
+    |-- .gitignore
+    |-- README.md
+    |-- package-lock.json
+    |-- package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Development <a name="futureDevelopment"></a>
 
-### Analyzing the Bundle Size
+    * Add search button instead of just a input field
+    * Create a note to notify the user that there is no employee with that name in the directory when searching for a name that is not there.
+    * Add a hover funtion to the table categories to know that they are clickable.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Scripts
 
-### Making a Progressive Web App
+    * npm start
+        * Runs the app in development mode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    * npm test
+        * Launches the test runnre in the interactive watch mode
 
-### Advanced Configuration
+    * npm run build
+        * builds the app for production to the build folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    * npm run deploy
+        * deploys the app to the github repository for deployment.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the MIT License License
 
-### `npm run build` fails to minify
+![Badge for GitHub repo license](https://img.shields.io/github/license/JC72/employee-directory?style=flat&logo=appveyor)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Execution
+### To Execute File:
+> Just click on the Active site link in the link section or go to
+https://jc72.github.io/employee-directory/ in the web browser.
+
+
+## Credit
+
+* Would like to thank stackoverflow for helping me find fixes for some of my conflicts.  Especially with several errors when trying to compile the app.
+
+* [Stack Overflow](https://stackoverflow.com/)
+
+* Also would like to thank the React Documentation for certain ways to use react and React-Bootstrap where I found how to make the table.
+
+* [React.org](https://reactjs.org/)
+* [ReactTable](https://react-bootstrap.github.io/components/table/)
+
+
+
+## Creators:
+
+* **Jeff Clegg** - [Git Hub Profile](https://github.com/JC72)
+* MSU BootCamp
